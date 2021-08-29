@@ -1,0 +1,34 @@
+{
+  "name": "3js-repo",
+  "version": "1.0.0",
+  "description": "This repo has sample code for 3JS applications and tutorials",
+  "main": "index.js",
+  "dependencies": {
+    "three": "^0.132.2"
+  },
+  "devDependencies": {
+    "@types/three": "^0.131.0",
+    "browserify": "^17.0.0",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "tsify": "^5.0.4",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp --watch",
+    "deploy": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priya4991/3js-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priya4991/3js-repo/issues"
+  },
+  "homepage": "https://github.com/priya4991/3js-repo#readme"
+}
